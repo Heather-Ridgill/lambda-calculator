@@ -6,6 +6,8 @@ import React from "react";
 
 const Numbers = () => {
   // STEP 2 - add the imported data to state
+
+  import numbers from "./NumberButton";
   return (
     <div>
       {/* STEP 3 - Use .map() to iterate over your array data and return a button
