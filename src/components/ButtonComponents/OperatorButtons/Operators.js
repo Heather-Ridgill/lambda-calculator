@@ -18,7 +18,8 @@ const Operators = () => {
        it any props needed by the child component*/}
 
       {operators.map(operatorItem => {
-        return <OperatorButton operator={operatorItem} />;
+        console.log(operatorItem);
+        return <OperatorButton operator={operatorItem.char} />;
       })}
     </div>
   );

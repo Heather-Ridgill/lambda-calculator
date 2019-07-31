@@ -25,6 +25,7 @@ function App() {
   return (
     <div className="container">
       <Logo />
+      <Display displayState={displayState} />
       <div className="App">
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
         <div className="left-side">
